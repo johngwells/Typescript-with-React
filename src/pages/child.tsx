@@ -9,6 +9,7 @@ interface ChildProps {
 // };
 
 // option 2
+// passing children comes with this method without any errors.
 const Child: React.FC<ChildProps> = ({ color, onClick }) => {
   return (
     <div>
